@@ -362,21 +362,21 @@ export const ScenarioSlide = () => (
                         <div className="w-10 h-10 rounded-full bg-brand-red text-white flex items-center justify-center font-bold flex-shrink-0">1</div>
                         <div>
                             <h3 className="font-bold text-lg mb-1">Khách đặt hàng qua Facebook</h3>
-                            <p className="text-stone-500 text-sm">Khách nhắn tin -> Bot nhận diện -> Xin thông tin -> Tạo đơn -> Gửi bill PDF.</p>
+                            <p className="text-stone-500 text-sm">Khách nhắn tin -{'>'} Bot nhận diện -{'>'} Xin thông tin -{'>'} Tạo đơn -{'>'} Gửi bill PDF.</p>
                         </div>
                     </div>
                     <div className="flex gap-4">
                         <div className="w-10 h-10 rounded-full bg-stone-800 text-white flex items-center justify-center font-bold flex-shrink-0">2</div>
                         <div>
                             <h3 className="font-bold text-lg mb-1">Nhân viên tra cứu (RAG)</h3>
-                            <p className="text-stone-500 text-sm">Nhân viên hỏi "Doanh số món G7 tháng này?" -> Bot query Database -> Trả lời ngay.</p>
+                            <p className="text-stone-500 text-sm">Nhân viên hỏi "Doanh số món G7 tháng này?" -{'>'} Bot query Database -{'>'} Trả lời ngay.</p>
                         </div>
                     </div>
                     <div className="flex gap-4">
                         <div className="w-10 h-10 rounded-full bg-stone-800 text-white flex items-center justify-center font-bold flex-shrink-0">3</div>
                         <div>
                             <h3 className="font-bold text-lg mb-1">Tra cứu tài liệu nội bộ</h3>
-                            <p className="text-stone-500 text-sm">CS hỏi quy trình xử lý khiếu nại -> Bot tìm trong file PDF quy định công ty.</p>
+                            <p className="text-stone-500 text-sm">CS hỏi quy trình xử lý khiếu nại -{'>'} Bot tìm trong file PDF quy định công ty.</p>
                         </div>
                     </div>
                 </div>
